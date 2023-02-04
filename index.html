@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title> JS Modal Practice</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<section class="modal hidden">
+  <div class="flex">
+    <img src="user.png" width="50px" height="50px" alt="user" />
+    <button class="btn-close"> x </button>
+  </div>
+  <div>
+    <h3> Stay in touch </h3>
+    <p>
+      This is a dummy #CircusAndCode newsletter form, you can test it if you want...but there's no newsletter to be had yet!
+    </p>
+  </div>
+
+  <input type="email" id="email" placeholder="contact@circusandcode.com" />
+  <button class="btn"> Submit </button>
+</section>
+  
+  <div class="overlay hidden"></div>
+<button class="btn btn-open"> Open Modal </button>
+
+  
+  <script src="script.js"></script>
